@@ -2,7 +2,12 @@
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0329/060408_475d69a4_899222.jpeg "QQ截图20200329060118.jpg")
  支持一下 :smile: 
 
-【2020年3月31日】小米路由器R3P 83M固件超多插件集成版
+```
+更新日志:【2020年3月31日】
+最新源码编译，优化dns
+```
+
+【2020年3月29日】小米路由器R3P 83M固件超多插件集成版
 
 首页:
 https://gitee.com/chenxqiyu/openwrt_r3p
