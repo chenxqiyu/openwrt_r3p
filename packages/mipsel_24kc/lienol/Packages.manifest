@@ -1,0 +1,150 @@
+Package: brook
+Version: 20200201-2
+Depends: libc
+Source: feeds/lienol/package/brook
+SourceName: brook
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 4052726
+Filename: brook_20200201-2_mipsel_24kc.ipk
+Size: 4044742
+SHA256sum: 6075e8bb1406fff441ba9990fc77a58a2bc0a2411bc753e859fb557f0a710a11
+Description:  Brook is a cross-platform proxy software
+
+Package: chinadns-ng
+Version: 1.0-beta.18-1
+Depends: libc, ipset
+Source: feeds/lienol/package/chinadns-ng
+SourceName: chinadns-ng
+License: GPLv3
+LicenseFiles: LICENSE
+Section: net
+Maintainer: pexcn <i@pexcn.me>
+Architecture: mipsel_24kc
+Installed-Size: 16604
+Filename: chinadns-ng_1.0-beta.18-1_mipsel_24kc.ipk
+Size: 17337
+SHA256sum: 92123f50304a0d5792f2ad891a96c15b30d703e2c75fae84741509622bfb41fd
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: luci-app-filebrowser
+Version: 1.1-1
+Depends: libc
+Source: feeds/lienol/lienol/luci-app-filebrowser
+SourceName: luci-app-filebrowser
+Section: luci
+Architecture: all
+Installed-Size: 6386
+Filename: luci-app-filebrowser_1.1-1_all.ipk
+Size: 7161
+SHA256sum: 17acf6a00fee5da24608fb3d2098e6d01ceb6e0be8cd42773142a54de0683ede
+Description:  LuCI support for FileBrowser
+
+Package: luci-app-kcptun
+Version: 1.4.5-1
+Depends: libc, jshn, wget, luci-lib-jsonc
+Source: feeds/lienol/others/luci-app-kcptun
+SourceName: luci-app-kcptun
+License: Apache-2.0
+Section: luci
+Maintainer: Xingwang Liao <kuoruan@gmail.com>
+Architecture: all
+Installed-Size: 11212
+Filename: luci-app-kcptun_1.4.5-1_all.ipk
+Size: 12117
+SHA256sum: be8b82809d740072d136c37743a9e0d192910ba6b9d0c471541da818624918c9
+Description:  LuCI support for Kcptun
+
+Package: luci-app-passwall
+Version: 3.6-32
+Depends: libc, libmbedtls12, iptables-mod-tproxy, ip, ipset, coreutils, coreutils-base64, coreutils-nohup, luci-lib-jsonc, wget, resolveip, unzip, dnsmasq-full, tcping, libuci-lua, ipt2socks, shadowsocks-libev-ss-redir, shadowsocksr-libev-alt, shadowsocks-libev-ss-local, shadowsocksr-libev-ssr-local, v2ray, trojan, ipt2socks, brook, kcptun-client, haproxy, chinadns-ng, pdnsd-alt, dns2socks, v2ray-plugin, simple-obfs
+Source: feeds/lienol/lienol/luci-app-passwall
+SourceName: luci-app-passwall
+Section: opt
+Architecture: all
+Installed-Size: 671562
+Filename: luci-app-passwall_3.6-32_all.ipk
+Size: 671901
+SHA256sum: 3a22e5f886ff3f5fb64a7775b4cf7cd7ff82f903a7644386ec50419d92a279d7
+Description:  LuCI support for PassWall
+
+Package: luci-i18n-filebrowser-zh-cn
+Version: 1.1-1
+Depends: libc, luci-app-filebrowser
+Source: feeds/lienol/lienol/luci-app-filebrowser
+SourceName: luci-i18n-filebrowser-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 1705
+Filename: luci-i18n-filebrowser-zh-cn_1.1-1_all.ipk
+Size: 2531
+SHA256sum: 46ca7242ebc114b6f18248d033f8eb6d6a3199e4a3c991617560b0e5274ed2b2
+Description:  Translation for luci-app-filebrowser - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-kcptun-zh-cn
+Version: 1.4.5-1
+Depends: libc, luci-app-kcptun
+Source: feeds/lienol/others/luci-app-kcptun
+SourceName: luci-i18n-kcptun-zh-cn
+License: Apache-2.0
+Section: luci
+Maintainer: Xingwang Liao <kuoruan@gmail.com>
+Architecture: all
+Installed-Size: 2856
+Filename: luci-i18n-kcptun-zh-cn_1.4.5-1_all.ipk
+Size: 3700
+SHA256sum: ad63f8ff390113cb0a95ad8664ded38f2796a86ec58e5b32a62837e36ba3409c
+Description:  Translation for luci-app-kcptun - 简体中文 (Simplified Chinese)
+
+Package: luci-theme-argon-dark-mod
+Version: 1.4-02-20200101
+Depends: libc
+Source: feeds/lienol/lienol/luci-theme-argon-dark-mod
+SourceName: luci-theme-argon-dark-mod
+Section: luci
+Architecture: all
+Installed-Size: 149419
+Filename: luci-theme-argon-dark-mod_1.4-02-20200101_all.ipk
+Size: 150079
+SHA256sum: 4ff1fb33f00ea3e1c020b70aa572fae1ecd5cd7970bc1c34d6ece2d6e6f47be5
+Description:  Argon Dark Mod Theme
+
+Package: luci-theme-argon-light-mod
+Version: 1.4-03-20200101
+Depends: libc
+Source: feeds/lienol/lienol/luci-theme-argon-light-mod
+SourceName: luci-theme-argon-light-mod
+Section: luci
+Architecture: all
+Installed-Size: 1520281
+Filename: luci-theme-argon-light-mod_1.4-03-20200101_all.ipk
+Size: 1520549
+SHA256sum: 770f183caacb6af8d06c8efdc23b7193ab2306cf1675df542a03b4f7477a1393
+Description:  Argon Light Mod Theme
+
+Package: luci-theme-bootstrap-mod
+Version: 1.4-20200314
+Depends: libc
+Source: feeds/lienol/lienol/luci-theme-bootstrap-mod
+SourceName: luci-theme-bootstrap-mod
+Section: luci
+Architecture: all
+Installed-Size: 192324
+Filename: luci-theme-bootstrap-mod_1.4-20200314_all.ipk
+Size: 193171
+SHA256sum: 32f5aaf751c50f952dbff35761626187b5c5e7b77ac12afab408835996aab68a
+Description:  Bootstrap Mod Theme By Lienol
+
+Package: tcping
+Version: 0.1-2
+Depends: libc
+Source: feeds/lienol/package/tcping
+SourceName: tcping
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 3384
+Filename: tcping_0.1-2_mipsel_24kc.ipk
+Size: 4047
+SHA256sum: 94633116b1f6048f19e6b0053ebe5f893a7bacd0d282eee021c2fa0486b63992
+Description:  tcping measures the latency of a tcp-connection
+
