@@ -18,16 +18,15 @@ https://gitee.com/chenxqiyu/openwrt_r3p
 ```
 openwrt_r3p/targets/ramips/mt7621
 ```
-固件下载路径:（注:适用于小米官方固件首次刷入openwrt使用）
+固件下载路径:
 ```
 http://chenxqiyu.gitee.io/openwrt_r3p/targets/ramips/mt7621/openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-factory.bin
 ```
-[点击下载](http://chenxqiyu.gitee.io/openwrt_r3p/targets/ramips/mt7621/openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-factory.bin)
-（注:适用于已是openwrt固件来更新固件）
+[点击下载](http://chenxqiyu.gitee.io/openwrt_r3p/targets/ramips/mt7621/openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-factory.bin)（注:适用于小米官方固件首次刷入openwrt使用）
 ```
 http://chenxqiyu.gitee.io/openwrt_r3p/targets/ramips/mt7621/openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin
 ```
-[点击下载](http://chenxqiyu.gitee.io/openwrt_r3p/targets/ramips/mt7621/openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin)
+[点击下载](http://chenxqiyu.gitee.io/openwrt_r3p/targets/ramips/mt7621/openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin)（注:适用于已是openwrt固件来更新固件）
 
 不刷固件可添加一下仓库源地址安装插件:
 ```
