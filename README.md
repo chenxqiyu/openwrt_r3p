@@ -22,7 +22,7 @@ openwrt_r3p/targets/ramips/mt7621
 ```
 https://pan.baidu.com/s/1WXzqWvOkpkaFOqqp2j_1OQ  提取码: g778
 ```
-[点击下载](https://pan.baidu.com/s/1WXzqWvOkpkaFOqqp2j_1OQ)（ **注:适用于小米官方固件首次刷入openwrt使用，为了保证成功刷入，所以不加入下面的插件，防止锁uboot没有安全模式导致变砖。刷机完成后，再更新下面的固件即可获得全部插件，更新方法看结尾。已是openwrt固件刷下面固件即可。** ）
+[点击下载](https://pan.baidu.com/s/1WXzqWvOkpkaFOqqp2j_1OQ)（ **注:适用于小米官方固件首次刷入openwrt使用，为了保证成功刷入，所以不加入下面的插件，防止锁uboot没有安全模式导致变砖。刷机完成后，再更新下面的固件即可获得全部插件，更新方法看本文结尾。已是openwrt固件刷下面固件即可。** ）
 ```
 https://pan.baidu.com/s/16fJNPUTH4vXc0FrzGVodtw 提取码: 34ur 
 ```
