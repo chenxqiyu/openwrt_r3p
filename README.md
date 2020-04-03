@@ -9,7 +9,6 @@
 
 【2020年3月29日】小米路由器R3P 83M固件超多插件集成版
 
-简述结尾: 有openwrt官方刷机方法
 
 首页:
 https://gitee.com/chenxqiyu/openwrt_r3p
