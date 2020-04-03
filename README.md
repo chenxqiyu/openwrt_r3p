@@ -28,7 +28,7 @@ https://pan.baidu.com/s/16fJNPUTH4vXc0FrzGVodtw 提取码: 34ur
 ```
 [点击下载](https://pan.baidu.com/s/16fJNPUTH4vXc0FrzGVodtw)（ **注:适用于已是openwrt固件来更新固件，更新该固件才拥有以下所有插件，更新方法看固件截图**）
 
-不刷固件可添加一下仓库源地址安装插件:
+ **不刷固件可添加一下仓库源地址安装插件:** 
 ```
 src/gz openwrt_core http://chenxqiyu.gitee.io/openwrt_r3p/targets/ramips/mt7621/packages
 src/gz openwrt_base http://chenxqiyu.gitee.io/openwrt_r3p/packages/mipsel_24kc/base
