@@ -27,7 +27,15 @@ https://pan.baidu.com/s/1WXzqWvOkpkaFOqqp2j_1OQ  提取码: g778
 openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin
 https://pan.baidu.com/s/16fJNPUTH4vXc0FrzGVodtw 提取码: 34ur 
 ```
-[点击下载](https://pan.baidu.com/s/16fJNPUTH4vXc0FrzGVodtw)（ **注:确保路由器开机能进入openwrt管理页面，再更新操作。适用于已是openwrt固件来更新固件，更新该固件才拥有以下所有插件，更新方法看固件截图，可采用scp上传固件到/tmp/目录下**）
+[点击下载](https://pan.baidu.com/s/16fJNPUTH4vXc0FrzGVodtw)（ **注:确保路由器开机能进入openwrt管理页面，再更新操作。适用于已是openwrt系统来更新固件，更新该固件才拥有以下所有插件。
+1.scp上传到路由器/tmp目录，win10使用powershell当前目录执行：
+scp .\openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin root@192.168.1.1:/tmp
+2.路由器ssh执行：
+cd /tmp
+sysupgrade -n openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin
+完成升级
+**）
+
 
  **不刷固件可添加一下仓库源地址安装插件:** 
 ```
