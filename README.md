@@ -8,6 +8,7 @@
 ```
 
 【2020年3月29日】小米路由器R3P 83M固件超多插件集成版
+----------------------------------------------------------------------------------------------------------------------------
 
 固件下载路径:
 ----------------------------------------------------------------------------------------------------------------------------
@@ -26,6 +27,7 @@ https://pan.baidu.com/s/16fJNPUTH4vXc0FrzGVodtw 提取码: 34ur
 ```
 [点击下载](https://pan.baidu.com/s/16fJNPUTH4vXc0FrzGVodtw)（ **注:openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin适用于已是openwrt系统来更新固件，更新才会有以下所有插件。** ）
 
+```
 1.scp上传到路由器/tmp目录，win10使用powershell当前目录执行：
 
 scp .\openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin root@192.168.1.1:/tmp
@@ -37,7 +39,7 @@ cd /tmp
 sysupgrade -n openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin
 
 完成升级
-
+```
 ----------------------------------------------------------------------------------------------------------------------------
 
 
@@ -51,6 +53,8 @@ src/gz openwrt_luci http://chenxqiyu.gitee.io/openwrt_r3p/packages/mipsel_24kc/l
 src/gz openwrt_packages http://chenxqiyu.gitee.io/openwrt_r3p/packages/mipsel_24kc/packages
 src/gz openwrt_routing http://chenxqiyu.gitee.io/openwrt_r3p/packages/mipsel_24kc/routing
 ```
+----------------------------------------------------------------------------------------------------------------------------
+
 固件初始账密:
 ```
 root/password
