@@ -71,7 +71,9 @@ root/password
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0401/005353_30ccdece_899222.jpeg "QQ截图20200329154613.jpg")
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0401/005417_b4df614f_899222.jpeg "pro.jpg")
 
-【刷入Openwrt】
+【首次刷入Openwrt】
+
+```
 将提供的固件下载后放到U盘，然后插到路由器。
 
 1、拥有SSH访问权限。(这个不用说了，要刷机的人都知道)
@@ -102,8 +104,11 @@ mtd erase overlay
 dd if=factory.bin bs=1M skip=4 | mtd write - rootfs0
 
 reboot
+```
 
 【恢复到小米固件】
+
+```
 
 1、从小米下载开发固件，并将其重命名为miwifi.bin放到U盘(FAT/FAT32)根目录。
 
@@ -122,3 +127,5 @@ reboot
 5、按住重置按钮并打开电源，直到黄灯亮起。等待5分钟安装固件。
 
 6、登录到192.168.31.1的路由器。
+
+```
