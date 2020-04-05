@@ -28,7 +28,7 @@ https://pan.baidu.com/s/16fJNPUTH4vXc0FrzGVodtw 提取码: 34ur
 [点击下载](https://pan.baidu.com/s/16fJNPUTH4vXc0FrzGVodtw)（ **注:openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin适用于已是openwrt系统来更新固件，更新才会有以下所有插件。** ）
 
 ```
-1.scp上传到路由器/tmp目录，win10使用powershell当前目录执行：
+1.更新固件方法,scp上传到路由器/tmp目录，win7和xp使用winscp，win10系统按住shirt+右键使用powershell当前目录执行：
 
 scp .\openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin root@192.168.1.1:/tmp
 
