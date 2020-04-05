@@ -19,10 +19,12 @@ openwrt_r3p/targets/ramips/mt7621
 ```
 固件下载路径:
 ```
+openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-factory.bin
 https://pan.baidu.com/s/1WXzqWvOkpkaFOqqp2j_1OQ  提取码: g778
 ```
-[点击下载](https://pan.baidu.com/s/1WXzqWvOkpkaFOqqp2j_1OQ)（ **注:适用于小米官方固件首次刷入openwrt使用，为了保证成功刷入，所以不加入下面的插件，防止锁uboot没有安全模式导致变砖。刷机完成后，再更新下面的固件即可获得全部插件，更新方法看本文结尾。已是openwrt固件刷下面固件即可。** ）
+[点击下载](https://pan.baidu.com/s/1WXzqWvOkpkaFOqqp2j_1OQ)（ **注:适用于小米官方系统首次刷入openwrt系统使用，为了保证成功刷入，所以不加入下面的插件，防止锁uboot没有安全模式导致变砖。刷机完成后，再更新下面的固件即可获得全部插件，更新方法看本文结尾。已是openwrt系统刷下面固件即可。** ）
 ```
+openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin
 https://pan.baidu.com/s/16fJNPUTH4vXc0FrzGVodtw 提取码: 34ur 
 ```
 [点击下载](https://pan.baidu.com/s/16fJNPUTH4vXc0FrzGVodtw)（ **注:确保路由器开机能进入openwrt管理页面，再更新操作。适用于已是openwrt固件来更新固件，更新该固件才拥有以下所有插件，更新方法看固件截图，可采用scp上传固件到/tmp/目录下**）
