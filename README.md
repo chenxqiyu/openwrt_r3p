@@ -39,7 +39,7 @@ scp .\openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin root@192.168.1.
 
 cd /tmp
 
-sysupgrade -n openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin
+sysupgrade -n openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin   (-n代表不保存配置档更新，取消则保留配置档)
 
 完成升级
 ```
