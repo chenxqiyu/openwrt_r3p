@@ -3,6 +3,9 @@
  支持一下 :smile: 
 
 ```
+更新日志:【2020年4月6日】
+最新源码编译，增加挂载U盘和硬件自动设备
+
 更新日志:【2020年3月31日】
 最新源码编译，优化dns
 ```
@@ -23,7 +26,7 @@ https://pan.baidu.com/s/1WXzqWvOkpkaFOqqp2j_1OQ  提取码: g778
 
 ```
 openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin
-https://pan.baidu.com/s/16fJNPUTH4vXc0FrzGVodtw 提取码: 34ur 
+链接: https://pan.baidu.com/s/1womVl62YSEK1xJuGJkiGFA 提取码: wss9
 ```
 [点击下载](https://pan.baidu.com/s/16fJNPUTH4vXc0FrzGVodtw)（ **注:openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin适用于已是openwrt系统来更新固件，更新才会有以下所有插件。** ）
 
