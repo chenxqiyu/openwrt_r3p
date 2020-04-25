@@ -3,6 +3,9 @@
  支持一下 :smile: 
 
 ```
+更新日志:【2020年4月25日】
+最新源码编译，修正samba网络共享，增加ddns动态dns客户端
+
 更新日志:【2020年4月6日】
 最新源码编译，增加挂载U盘和硬件自动设备
 
@@ -10,7 +13,7 @@
 最新源码编译，优化dns
 ```
 
-【2020年4月6日】小米路由器R3P 83M固件超多插件集成版
+【2020年4月25日】小米路由器R3P 83M固件超多插件集成版
 
 
 固件下载路径:
@@ -26,9 +29,9 @@ https://pan.baidu.com/s/1WXzqWvOkpkaFOqqp2j_1OQ  提取码: g778
 
 ```
 openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin
-链接: https://pan.baidu.com/s/1womVl62YSEK1xJuGJkiGFA 提取码: wss9
+链接: https://pan.baidu.com/s/1Em1na5htEdoCL_2SSTjeYA 提取码: divx
 ```
-[点击下载](https://pan.baidu.com/s/1womVl62YSEK1xJuGJkiGFA)（ **注:openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin适用于已是openwrt系统来更新固件，更新才会有以下所有插件。** ）
+[点击下载](https://pan.baidu.com/s/1Em1na5htEdoCL_2SSTjeYA)（ **注:openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin适用于已是openwrt系统来更新固件，更新才会有以下所有插件。** ）
 
 ```
 1.更新固件方法,scp上传到路由器/tmp目录，win7和xp使用winscp，win10系统按住shift+右键使用powershell当前目录执行：
@@ -39,7 +42,7 @@ scp .\openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin root@192.168.1.
 
 cd /tmp
 
-sysupgrade -n openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin   (-n代表不保存配置档更新，取消则保留配置档)
+sysupgrade -n openwrt-ramips-mt7621-xiaomi_mir3p-squashfs-sysupgrade.bin   (-n代表不保存配置更新，取消则保留配置，首次更新建议-n)
 
 执行后自动重启，完成升级
 
